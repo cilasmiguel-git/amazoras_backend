@@ -29,6 +29,10 @@ console.log(userRoute);
 app.use('/api/users', userRoute);
 app.use('/api/products', productRoute);
 
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+});
+
 // app.get('/api/products', (req, res) => {
 //     res.send(data.products);
 // })
