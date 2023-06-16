@@ -39,8 +39,8 @@ router.post('/signin', async (req, res) => {
 router.get('/createadmin', async (req, res) => {
   try {
     const user = new User({
-      name: 'Miguel',
-      email: 'cilasmiguelcolacobp@gmail.com',
+      name: 'CilasMiguel',
+      email: 'miguelcilascolacobezerramiguel@gmail.com',
       password: '123456',
       isAdmin: true
     });
@@ -56,8 +56,8 @@ router.get('/createadmin', async (req, res) => {
 router.get('/createuser', async (req, res) => {
   try {
     const user = new User({
-      name: 'pedro',
-      email: 'pedro@gmail.com',
+      name: 'josefa',
+      email: 'josefa@gmail.com',
       password: '123456',
       isAdmin: false
     });

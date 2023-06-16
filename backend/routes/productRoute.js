@@ -49,7 +49,6 @@ router.post('/', isAuth, isAdmin, async (req, res) => {
     res.status(500).json({ message: 'Erro ao criar o produto' });
   }
 });
-
 // Rota para atualizar um produto
 router.put('/:id', isAuth, isAdmin, async (req, res) => {
   try {
