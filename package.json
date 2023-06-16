@@ -1,11 +1,12 @@
 {
   "name": "amazoras",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch backend --exec babel-node backend/server.js"
+    "start": "nodemon --watch backend --exec babel-node backend/server.js",
+    "dev": "nodemon backend/server.js"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +24,7 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.2.2",
+    "moongoose": "^0.0.5",
     "react-modal": "^3.16.1"
   }
 }
